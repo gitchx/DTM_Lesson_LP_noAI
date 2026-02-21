@@ -1,0 +1,23 @@
+:root {
+    --primary-dark: #0f172a;
+    --secondary-dark: #1e293b;
+    --accent-blue: #3b82f6;
+    --accent-light: #60a5fa;
+    --text-main: #f1f5f9;
+    --text-sub: #94a3b8;
+    --white: #ffffff;
+    --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.8;
+    color: var(--text-main);
+    margin: 0;
+    background-color: #0b1120;
+    word-break: break-all;
+}
