@@ -92,3 +92,31 @@ h3 {
   margin: 0;
   color: var(--accent-light);
 }
+tr {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  color: var(--text-sub);
+}
+
+td {
+  color: var(--accent-light);
+  font-weight: 800;
+  font-size: large;
+  text-align: center;
+}
+
+.price span {
+  font-size: 0.7rem;
+  color: var(--text-sub);
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
