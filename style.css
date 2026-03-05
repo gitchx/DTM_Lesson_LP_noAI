@@ -1,32 +1,94 @@
 :root {
-    --primary-dark: #0f172a;
-    --secondary-dark: #1e293b;
-    --accent-blue: #3b82f6;
-    --accent-light: #60a5fa;
-    --text-main: #f1f5f9;
-    --text-sub: #94a3b8;
-    --white: #ffffff;
-    --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --primary-dark: #0f172a;
+  --secondary-dark: #1e293b;
+  --accent-blue: #3b82f6;
+  --accent-light: #60a5fa;
+  --text-main: #f1f5f9;
+  --text-sub: #94a3b8;
+  --white: #ffffff;
+  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-    line-height: 1.8;
-    color: var(--text-main);
-    margin: 0;
-    background-color: #0b1120;
-    word-break: break-all;
+  font-family:
+    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    Meiryo, sans-serif;
+  line-height: 1.8;
+  color: var(--text-main);
+  margin: 0;
+  background-color: #0b1120;
+  word-break: break-all;
 }
 
 .hero {
-    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), 
-                url('./image/music_studio.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 120px 20px;
-    text-align: center;
+  background:
+    linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)),
+    url("./image/music_studio.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  height: 450px;
+}
+
+.hero-content p {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+.btn {
+  display: flex;
+  width: 170px;
+  height: 50px;
+  background-color: var(--accent-blue);
+  border-radius: 20px;
+  line-height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--secondary-dark);
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.lesson-item {
+  margin: 2rem 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.lesson_description {
+  font-size: 0.8rem;
+}
+
+h3 {
+  margin: 0;
+  color: var(--accent-light);
 }
